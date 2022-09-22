@@ -1,4 +1,7 @@
-### Create On Premise K8 cluster
+# Create On Premise K8 cluster
+
+
+## Install Container Runtime
 
 The first step in setting up a new cluster is to install a container runtime such as Docker. We will be installing
 Docker on our three servers in preparation for standing up a Kubernetes cluster. After completing this, we should have a cluster containing three servers, all with Docker up and running.
@@ -25,5 +28,8 @@ https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 ```
 
 ## Install K8 components
-#  Install
+
+Now that Docker is installed, we are ready to install the Kubernetes components. Installation includes process of installing Kubeadm, Kubelet, and Kubectl on all three playground servers. After completing this ,we should be ready for the next step, which is to bootstrap the cluster.
+
+
 
