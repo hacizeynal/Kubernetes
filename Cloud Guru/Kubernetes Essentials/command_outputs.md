@@ -32,7 +32,7 @@ service/store-products   ClusterIP   10.100.125.134   <none>        80/TCP    3m
 ```
 
 
-## send request to port 80 via curl command ,cluster IP is responding for deployment.
+## send request to port 80 via curl command (from inside) ,cluster IP is responding for deployment.
 
 cloud_user@ip-10-0-1-101:~$ curl 10.100.125.134:80
 ```
@@ -57,3 +57,4 @@ cloud_user@ip-10-0-1-101:~$ curl 10.100.125.134:80
 	]
 }
 ```
+
