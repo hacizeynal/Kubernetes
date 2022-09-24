@@ -84,13 +84,13 @@ Snippet
         port: 8080
         protocol: TCP
         targetPort: 8080
-        nodePort: 30080
+        nodePort: 30082
       selector:
         io.kompose.service: web
       sessionAffinity: None
       type: NodePort
 
-The store front is then available on the IP address of minikube port 30080. To find the IP address of your minikube instance.
+The store front is then available on the IP address of minikube port 30082. To find the IP address of your minikube instance.
 
     $ minikube ip
 
